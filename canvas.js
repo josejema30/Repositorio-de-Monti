@@ -4,6 +4,8 @@ boton.addEventListener('click', paintforclick);
 var d = document.getElementById("paint");
 var lienzo = d.getContext("2d");
 
+//hola soy un cambio nuevo 
+
 function paintinglines(color, xinicial, yinicial, xfinal, yfinal)
 {
     lienzo.beginPath();
